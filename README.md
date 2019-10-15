@@ -9,4 +9,6 @@ A Faucet designed to send 10 XEM every 60 minutes to the Address submited by the
 # How to install:
   1. Before anything, you will need to install the dependencies for the Faucet to work correctly. To do so, simply run the       following command inside the Folder where the Project is located:
   
-  ''' npm install '''
+  ''' 
+  npm install 
+  '''
