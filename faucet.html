@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Faucet</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/Style.css">
+</head>
+<body>
+
+
+	<div class="ContentTextBox">
+		<div>
+			<form class="contact100-form validate-form" action=#>
+				<h1 style="text-align: center;">Faucet</h1><br><br>
+			<div>
+				<img src="images/nem.svg", style="width:350px;height:350px;">
+			</div>
+			<br><br>
+
+				<div class="EstiloTextBox">
+					<input id="addr" class="Font" type="text" name="account" placeholder="NEM Adress: ">
+				</div>
+				<br>
+				<div class="EstiloTextBox">
+					<textarea id="txt" class="Font" name="message" placeholder="Message [Optional]: "></textarea>
+				</div>
+			</form>
+
+			<div class="ContentTextBox-form-btn">
+				<br> 
+				<button onclick="reqs()" class="ButtonStyle">
+					Send!
+				</button>
+					
+			</div>
+
+			<div id="respuesta">
+					<p id="cod"></p>
+					<p id="mess" ></p>
+					<p id="hash"></p>
+			</div>
+			<iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+
+		</div>
+	</div>
+	
+<script src="js/requests.js"></script>
+<script src="js/main.js"></script>
+
+	</body>
+</html>
