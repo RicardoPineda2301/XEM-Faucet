@@ -23,7 +23,7 @@ You're almost ready to start using your own Faucet, there's only two more steps 
 
 1. Start the node server. To do so, again, open a terminal from the Folder where the project has been downloaded and run the following command: 
 ```
-node main.js
+node Faucet.js
 ```
 
 2. Now, with the server running, all you need to do is go to the Project's folder and run the file called **Faucet.html**
